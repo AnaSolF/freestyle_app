@@ -3,9 +3,11 @@ import React from "react";
 import styles from "@/styles/Home.module.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import Articulo from "./Articulo";
+
 
 const Main = () => {
+ 
+
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -55,8 +57,6 @@ const Main = () => {
         ></img>
       </header>
       <NavBar />
-      <h1 className={styles.title}>Este es el componente reutilizable</h1>
-      <Articulo />
       <div className={styles.foo}>
         <Footer />
       </div>

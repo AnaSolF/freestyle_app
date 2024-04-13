@@ -6,8 +6,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import styles from "@/styles/navBar.module.css";
+import Articulo from "./Articulo";
+import { useState } from "react";
+import Tablas from "./Tablas";
 
 function NavBar() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  const mostrar = () => {
+    setIsVisible(!isVisible);
+  };
   return (
     <>
       {["md"].map((expand) => (
@@ -35,10 +44,20 @@ function NavBar() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="#action1" style={{ color: "white" }}>
-                    Home
+                    Contácto
                   </Nav.Link>
-                  <Nav.Link href="#action2" style={{ color: "white" }}>
-                    Link
+
+                  <Nav.Link style={{ color: "white" }} onClick={mostrar}>
+                    <div
+                      className={isVisible ? styles.visible : styles.invisible}
+                    >
+                      Tablas
+                    </div>
+                    <div
+                      className={!isVisible ? styles.visible : styles.invisible}
+                    >
+                      Home
+                    </div>
                   </Nav.Link>
                   <NavDropdown
                     title="Dropdown"
@@ -74,6 +93,13 @@ function NavBar() {
           </Container>
         </Navbar>
       ))}
+      <h1 className={styles.title}>Este es el componente reutilizable</h1>
+      <div className={isVisible ? styles.visible : styles.invisible}>
+        <Articulo />
+      </div>
+      <div className={!isVisible ? styles.visible : styles.invisible}>
+        <Tablas />
+      </div>
     </>
   );
 }
