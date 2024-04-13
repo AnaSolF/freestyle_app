@@ -3,17 +3,14 @@ import React, { useEffect } from "react";
 import styles from "@/styles/Home.module.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import { useState } from "react";
 import { useMainContextProvider } from "@/Context/MainContextProvider";
 import Tablas from "./Tablas";
 import Articulo from "./Articulo";
+import Contacto from "@/pages/Contacto";
 
 const Main = () => {
   const { isVisible } = useMainContextProvider();
-  // const { mostrar } = useMainContextProvider();
 
-  
-console.log(isVisible)
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -63,15 +60,10 @@ console.log(isVisible)
         ></img>
       </header>
       <NavBar />
-      {/* <div className={isVisible ? styles.visible : styles.invisible}>
-        <Articulo />
-      </div>
-      <div className={!isVisible ? styles.visible : styles.invisible}>
-        <Tablas />
-      </div> */}
       {isVisible && <Articulo />}
       {!isVisible && <Tablas />}
       <div className={styles.foo}>
+        <Contacto />
         <Footer />
       </div>
     </div>

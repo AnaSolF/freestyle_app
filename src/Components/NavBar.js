@@ -10,8 +10,6 @@ import styles from "@/styles/navBar.module.css";
 import { useRouter } from "next/navigation";
 import Link from 'next/link';
 import { useMainContextProvider } from "@/Context/MainContextProvider";
-import Articulo from "./Articulo";
-
 
 function NavBar() {
   const { isVisible } = useMainContextProvider();
@@ -48,7 +46,7 @@ function NavBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Link href="/Contacto" style={{ fontWeight:"bold",color:"black",textDecoration:"none", paddingTop:"8px", paddingRight:"10px" }}>
+                  <Link href="#contacto" style={{ fontWeight:"bold",color:"black",textDecoration:"none", paddingTop:"8px", paddingRight:"10px" }}>
                     Contácto
                   </Link>
 

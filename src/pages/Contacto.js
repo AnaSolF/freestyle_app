@@ -3,11 +3,15 @@ import Form from "react-bootstrap/Form";
 import styles from "@/styles/contacto.module.css";
 import NavBar from "@/Components/NavBar";
 import Footer from "@/Components/Footer";
+// import { useMainContextProvider } from "@/Context/MainContextProvider";
+// import Tablas from "@/Components/Tablas";
+// import Articulo from "@/Components/Articulo";
+
 const Contacto = () => {
+
   return (
     <>
-      <NavBar />
-      <div className={styles.contacto}>
+      <div className={styles.contacto} id="contacto">
         <h2 className={styles.sTitle}>Contácto</h2>
         <Form>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -20,7 +24,6 @@ const Contacto = () => {
           </Form.Group>
         </Form>
       </div>
-      <Footer />
     </>
   );
 };
