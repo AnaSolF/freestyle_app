@@ -14,6 +14,9 @@ const MainContextProvider = ({ children }) => {
   const mostrar = () => {
     setIsVisible(!isVisible);
   };
+  const ejemplo = () => {
+    console.log("Hola")
+  };
 //Pasar las variables por value
   return (
     <MainContext.Provider
@@ -21,6 +24,7 @@ const MainContextProvider = ({ children }) => {
         isVisible,
         setIsVisible,
         mostrar,
+        ejemplo
       }}
     >
       {children}

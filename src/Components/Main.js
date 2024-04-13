@@ -11,6 +11,14 @@ import ButtonFixed from "./ButtonFixed";
 
 const Main = () => {
   const { isVisible } = useMainContextProvider();
+  const { ejemplo } = useMainContextProvider();
+
+  // const mostrarEj = () => {
+  //   ejemplo()
+  // }
+
+  // mostrarEj()
+  // ejemplo()
 
   return (
     <div className={styles.container} id="arriba">
