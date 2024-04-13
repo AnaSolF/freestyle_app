@@ -35,3 +35,10 @@
   align-items: center;
   padding: 20px;
 }
+
+.logo{
+  position: absolute;
+  z-index: 999;
+  top:30px
+
+}

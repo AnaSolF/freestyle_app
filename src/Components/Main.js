@@ -56,8 +56,8 @@ const Main = () => {
         <img
           className={styles.logo}
           src="/logo.png"
-          width={"180px"}
-          height={"90px"}
+          width={"280px"}
+          height={"200px"}
         ></img>
       </header>
       <NavBar />
