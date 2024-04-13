@@ -3,6 +3,7 @@ import Form from "react-bootstrap/Form";
 import styles from "@/styles/contacto.module.css";
 import NavBar from "@/Components/NavBar";
 import Footer from "@/Components/Footer";
+import { Button } from "react-bootstrap";
 // import { useMainContextProvider } from "@/Context/MainContextProvider";
 // import Tablas from "@/Components/Tablas";
 // import Articulo from "@/Components/Articulo";
@@ -22,6 +23,7 @@ const Contacto = () => {
             <Form.Label>Example textarea</Form.Label>
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
+          <Button variant="outline-success" style={{float:"right"}}>Enviar</Button>
         </Form>
       </div>
     </>

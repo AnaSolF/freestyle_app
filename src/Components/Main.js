@@ -7,12 +7,13 @@ import { useMainContextProvider } from "@/Context/MainContextProvider";
 import Tablas from "./Tablas";
 import Articulo from "./Articulo";
 import Contacto from "@/pages/Contacto";
+import ButtonFixed from "./ButtonFixed";
 
 const Main = () => {
   const { isVisible } = useMainContextProvider();
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="arriba">
       <header className={styles.header}>
         <ul className={styles.socialNavBar}>
           <li>
@@ -64,6 +65,7 @@ const Main = () => {
       {!isVisible && <Tablas />}
       <div className={styles.foo}>
         <Contacto />
+        <ButtonFixed />
         <Footer />
       </div>
     </div>
