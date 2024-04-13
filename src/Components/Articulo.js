@@ -5,18 +5,18 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 const Articulo = () => {
+  const { articulos } = data;
+
   return (
     <>
       <div className={styles.container}>
-        {data.map((doc, index) => (
-          <Card style={{ width: "18rem" }} className={styles.art}>
+        {articulos.map((doc, id) => (
+          <Card style={{ width: "18rem" }} className={styles.art} key={doc.id}>
             <Card.Img variant="top" src={doc.img} height={"230px"} />
             <Card.Body>
               <Card.Title>{doc.titulo}</Card.Title>
               <Card.Text>{doc.descripcion}</Card.Text>
-              <Button variant="link">
-                ver
-              </Button>
+              <Button variant="link">ver</Button>
             </Card.Body>
           </Card>
         ))}

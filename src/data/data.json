@@ -1,58 +1,86 @@
-[
-    {
-        "id": "1",
-        "titulo": "Este es un título de prueba",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor. ",
-        "comentario": "",
-        "img": "/images/audio-1851517_640.jpg"
-    },
-    {
-        "id": "2",
-        "titulo": "Este es un título de prueba",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
-        "comentario": "",
-        "img":"/images/band-4671748_640.jpg"
-    },
-    {
-        "id": "3",
-        "titulo": "Este es un título de prueba",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
-        "comentario": "",
-        "img": "/images/men-723557_640.jpg"
-    },
-    {
-        "id": "4",
-        "titulo": "Este es un título de prueba",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor. ",
-        "comentario": "",
-        "img": "/images/microphone-5046876_640.jpg"
-    },
-    {
-        "id": "5",
-        "titulo": "Este es un título de prueba",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor. ",
-        "comentario": "",
-        "img": "/images/microphone-7495739_640.jpg"
-    },
-    {
-        "id": "6",
-        "titulo": "Este es un título de prueba",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
-        "comentario": "",
-        "img": "/images/musician-5960112_640.jpg"
-    },
-    {
-        "id": "7",
-        "titulo": "Este es un título de prueba",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
-        "comentario": "",
-        "img": "/images/music-player-2951399_640.jpg"
-    },
-    {
-        "id": "8",
-        "titulo": "Este es un título de prueba",
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
-        "comentario": "",
-        "img": "/images/equalizer-153212_1280.png"
-    }
-]
+{
+    "articulos": [
+        {
+            "id": "1",
+            "titulo": "Este es un título de prueba",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor. ",
+            "comentario": "",
+            "img": "/images/audio-1851517_640.jpg"
+        },
+        {
+            "id": "2",
+            "titulo": "Este es un título de prueba",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
+            "comentario": "",
+            "img": "/images/band-4671748_640.jpg"
+        },
+        {
+            "id": "3",
+            "titulo": "Este es un título de prueba",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
+            "comentario": "",
+            "img": "/images/men-723557_640.jpg"
+        },
+        {
+            "id": "4",
+            "titulo": "Este es un título de prueba",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor. ",
+            "comentario": "",
+            "img": "/images/microphone-5046876_640.jpg"
+        },
+        {
+            "id": "5",
+            "titulo": "Este es un título de prueba",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor. ",
+            "comentario": "",
+            "img": "/images/microphone-7495739_640.jpg"
+        },
+        {
+            "id": "6",
+            "titulo": "Este es un título de prueba",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
+            "comentario": "",
+            "img": "/images/musician-5960112_640.jpg"
+        },
+        {
+            "id": "7",
+            "titulo": "Este es un título de prueba",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
+            "comentario": "",
+            "img": "/images/music-player-2951399_640.jpg"
+        },
+        {
+            "id": "8",
+            "titulo": "Este es un título de prueba",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit eget urna et lacinia. Nunc fringilla euismod elementum. Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
+            "comentario": "",
+            "img": "/images/equalizer-153212_1280.png"
+        }
+    ],
+    "tablas": [
+        {
+            "id":"1",
+            "nombre": "Juan",
+            "apellido": "Fuentes",
+            "descripcion": "Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
+            "userName": "Asterix234",
+            "avatar": ""
+        },
+        {
+            "id":"2",
+            "nombre": "Alex",
+            "apellido": "Lopez",
+            "descripcion": "Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
+            "userName": "Rex343",
+            "avatar": ""
+        },
+        {
+            "id":"3",
+            "nombre": "Marcos",
+            "apellido": "Ríos",
+            "descripcion": "Mauris quis sollicitudin enim, in sollicitudin quam. Pellentesque a venenatis tortor.",
+            "userName": "RedDragon666",
+            "avatar": ""
+        }
+    ]
+}
