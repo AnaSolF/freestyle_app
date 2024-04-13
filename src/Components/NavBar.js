@@ -12,6 +12,7 @@ import Link from 'next/link';
 import { useMainContextProvider } from "@/Context/MainContextProvider";
 
 function NavBar() {
+  //Ejemplo: Uso las variables que traigo del contexto con el hook personalizado (useMainContextProvider())
   const { isVisible } = useMainContextProvider();
   const { mostrar } = useMainContextProvider();
   const router = useRouter();

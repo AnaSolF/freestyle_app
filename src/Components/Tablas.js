@@ -3,6 +3,7 @@ import Table from "react-bootstrap/Table";
 import styles from "@/styles/tablas.module.css";
 import data from "@/data/data.json";
 const Tablas = () => {
+  
   const { tablas } = data;
   return (
     <div className={styles.container}>

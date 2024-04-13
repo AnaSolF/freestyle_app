@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 // import Footer from "./Footer";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.css"
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import { useMainContextProvider } from "@/Context/MainContextProvider";
@@ -56,8 +56,8 @@ const Main = () => {
         <img
           className={styles.logo}
           src="/logo.png"
-          width={"280px"}
-          height={"200px"}
+          width={"240px"}
+          height={"180px"}
         ></img>
       </header>
       <NavBar />
